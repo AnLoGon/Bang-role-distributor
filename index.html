@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bang! - Distribuidor de Roles y Personajes</title>
+    <meta name="description" content="Distribuidor aleatorio de roles y personajes para el juego de mesa BANG! con soporte de 3 a 8 jugadores y modo secreto." />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              western: ['Rye', 'cursive', 'serif'],
+              pirate: ['Pirata One', 'cursive', 'serif'],
+            }
+          }
+        }
+      }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pirata+One&family=Rye&family=Special+Elite&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="./index.tsx"></script>
+  </body>
+</html>

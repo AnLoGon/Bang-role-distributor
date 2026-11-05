@@ -1,0 +1,6 @@
+{
+  "name": "Bang! Role Distributor",
+  "description": "A stylish Wild West application to randomly distribute roles and characters for the board game 'Bang!' with support for 3 to 8 players.",
+  "requestFramePermissions": [],
+  "majorCapabilities": []
+}
