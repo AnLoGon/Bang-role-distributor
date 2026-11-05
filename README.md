@@ -14,29 +14,6 @@ Una aplicación web moderna y temática del Viejo Oeste para barajar y repartir 
 
 ---
 
-## 🚀 Cómo Publicar en GitHub Pages
-
-Esta aplicación ya está configurada con `base: './'` en `vite.config.ts` y cuenta con un flujo de trabajo automatizado de GitHub Actions.
-
-### Opción 1 (Recomendada - 100% Automática con GitHub Actions)
-
-1. Sube tu código a un repositorio en **GitHub**.
-2. En tu repositorio de GitHub, entra en **Settings** (Configuración) -> **Pages**.
-3. En **Build and deployment** -> **Source**, selecciona: **GitHub Actions**.
-4. ¡Listo! El archivo `.github/workflows/deploy.yml` compilará la app automáticamente en cada `git push` y te dará la URL pública de tu app en GitHub Pages.
-
-### Opción 2 (Despliegue Manual desde `dist`)
-
-1. Ejecuta en tu terminal:
-   ```bash
-   npm install
-   npm run build
-   ```
-2. La carpeta generada `dist` contiene los archivos estáticos listos para producción (`index.html`, `assets/`, etc.).
-3. Puedes subir el contenido de `dist` a la rama `gh-pages` de tu repositorio.
-
----
-
 ## 💻 Desarrollo Local
 
 Para probar la app en tu ordenador:
